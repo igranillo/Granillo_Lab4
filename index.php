@@ -5,6 +5,8 @@
 	<title>ITMD-361 Lab 4 Form Processing Script</title>
 </head>
 <body>
-	
+	<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post"></form>
+	First name: <input type="text" name="fname">
+	Last name: <input type="text" name="lname">
 </body>
 </html>
