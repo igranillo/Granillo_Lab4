@@ -8,5 +8,6 @@
 	<form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post"></form>
 	First name: <input type="text" name="fname">
 	Last name: <input type="text" name="lname">
+	<input type="submit" value="Submit">
 </body>
 </html>
