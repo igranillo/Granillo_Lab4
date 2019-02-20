@@ -8,7 +8,7 @@
 	<h2>Volunteer Form</h2>
 	<form method="POST" autocomplete="on" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
 	<fieldset>
-		<legend>My info</legend>
+		<legend><strong>My info</strong></legend>
 		<div>
 			<label>First name: <input type="text" name="fname_field" placeholder="first name"></label>
 		</div>
@@ -42,7 +42,22 @@
 				</select>
 			</label>		
 		</div>
-		<input type="submit" value="Submit">
 	</fieldset>
+	
+	<fieldset>
+		<legend><strong>My availability</strong></legend>
+		<label><input type="checkbox" name="checkbox_field[]" value="Sunday">Sunday</label><br>
+		<label><input type="checkbox" name="checkbox_field[]" value="Monday" >Monday</label><br>
+		<label><input type="checkbox" name="checkbox_field[]" value="Tuesday">Tuesday</label><br>
+		<label><input type="checkbox" name="checkbox_field[]" value="Wednesday">Wednesday</label>
+		<label><input type="checkbox" name="checkbox_field[]" value="Thursday">Thursday</label>
+		<label><input type="checkbox" name="checkbox_field[]" value="Friday">Friday</label>
+		<label><input type="checkbox" name="checkbox_field[]" value="Saturday">Saturday</label>
+
+		<label for="our_textarea">Comments:</label>
+        <textarea cols="30" rows="10" name="textarea_field" placeholder="Default Textarea text" id="our_textarea"></textarea>
+	</fieldset>
+
+	<input type="submit" value="Send Me">
 </body>
 </html>
