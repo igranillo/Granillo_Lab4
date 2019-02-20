@@ -9,16 +9,39 @@
 	<form method="POST" autocomplete="on" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
 	<fieldset>
 		<legend>My info</legend>
-		<label>First name: <input type="text" name="fname_field" placeholder="first name"></label>
-		<label>Last name: <input type="text" name="lname_field" placeholder="last name"></label>
-		<label>Phone Number: <input type="text" name="phone_number_field" placeholder="phone number"></label>
-		<label>Email: <input type="text" name="email_field" placeholder="email"></label>
-		<label>
-			Gender: 
-			<input type="radio" name="gender_field" value="Male">Male 
-			<input type="radio" name="gender_field" value="Female">Female
-		</label>
-
+		<div>
+			<label>First name: <input type="text" name="fname_field" placeholder="first name"></label>
+		</div>
+		<div>
+			<label>Last name: <input type="text" name="lname_field" placeholder="last name"></label>
+		</div>
+		<div>
+			<label>Phone Number: <input type="text" name="phone_number_field" placeholder="phone number"></label>
+		</div>
+		<div>
+			<label>Email: <input type="text" name="email_field" placeholder="email"></label>
+		</div>
+		<div>
+			<label>
+				Gender: 
+				<input type="radio" name="gender_field" value="Male">Male 
+				<input type="radio" name="gender_field" value="Female">Female
+			</label>			
+		</div>
+		<div>
+			<label>
+				Age:
+				<select name="age_field">
+					<option value="under 18" selected>under 18</option>
+					<option value="18-24">18-24</option>
+					<option value="25-34">25-34</option>
+					<option value="35-44">35-44</option>
+					<option value="45-54">45-54</option>
+					<option value="55-64">55-64</option>
+					<option value="65 and over">65 and over</option>
+				</select>
+			</label>		
+		</div>
 		<input type="submit" value="Submit">
 	</fieldset>
 </body>
