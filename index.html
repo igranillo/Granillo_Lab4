@@ -9,26 +9,25 @@
 	<form method="POST" autocomplete="on" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" enctype="multipart/form-data">
 	<fieldset>
 		<legend><strong>My info</strong></legend>
-		<p>
+		<div>
 			<label>First name: <input type="text" name="first_name_field" placeholder="first name"></label><br>
-		</p>
-		<p>
+		</div>
+		<div>
 			<label>Last name: <input type="text" name="last_name_field" placeholder="last name"></label><br>
-		</p>
-		<p>
+		</div>
+		<div>
 			<label>Phone Number: <input type="text" name="phone_field" placeholder="phone number"></label><br>
-		</p>
-		<p>
+		</div>
+		<div>
 			<label>Email: <input type="text" name="email_field" placeholder="email"></label><br>
-		</p>
-		<p>
-			<label>
+		</div>
+		<div>
+			
 				Gender: 
-				<input type="radio" name="gender_field" value="Male">Male 
-				<input type="radio" name="gender_field" value="Female">Female
-			</label><br>			
-		</p>
-		<p>
+				<label><input type="radio" name="gender_field" value="Male">Male</label>
+				<label></label><input type="radio" name="gender_field" value="Female">Female</label>			
+		</div>
+		<div>
 			<label>
 				Age:
 				<select name="age_field">
@@ -41,12 +40,12 @@
 					<option value="65 and over">65 and over</option>
 				</select>
 			</label><br>		
-		</p>
+		</div>
 	</fieldset>
 	
 	<fieldset>
 		<legend><strong>My availability</strong></legend>
-		<p>	
+		<div>	
 			<label>Days available:<br>
 			<input type="checkbox" name="available_field[]" value="Sunday">Sunday<br>
 			<input type="checkbox" name="available_field[]" value="Monday" >Monday<br>
@@ -56,17 +55,17 @@
 			<input type="checkbox" name="available_field[]" value="Friday">Friday<br>
 			<input type="checkbox" name="available_field[]" value="Saturday">Saturday<br>
 			</label>
-		</p>
-		<p>
+		</div>
+		<div>
 		<label for="our_textarea">Any Comments?</label><br>
         <textarea cols="45" rows="6" name="comments_field" placeholder="Default Textarea text" id="our_textarea"></textarea>
-        </p> 
-        <p>
+        </div> 
+        <div>
         	<input type="hidden" name="hidden_field" value="igranillo@hawk.iit.edu">
-        </p>
+        </div>
 	</fieldset>
-	<p>
+	<div>
 	<input type="submit" value="Send Me">
-</p> 
+</div> 
 </body>
 </html>
